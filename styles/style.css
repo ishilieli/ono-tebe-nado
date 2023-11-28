@@ -1,1 +1,129 @@
 /* место для вашего кода */
+
+/* header part */
+
+.header {
+    padding: 5.75rem 0;
+}
+
+.header-box {
+    grid-template-columns: 1fr 138px 1fr;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.125rem;
+}
+
+.header-nav-list {
+    gap: 2rem;
+    list-style-type: circle;
+}
+
+.header-address {
+    justify-self: end;
+    line-height: 1.5rem;
+}
+
+/* cover section part */
+
+.cover {
+    padding: 10.3rem 3rem 3.1rem;
+    background: var(--overlay), url("../images/cover.jpg") no-repeat center / cover;
+}
+
+.cover .cover-h1 {
+    font-size: 6.25rem;
+    line-height: 100%;
+    letter-spacing: 1.875rem;
+    flex-direction: column;
+    gap: 1.25rem;
+    padding-bottom: 8.45rem;
+}
+
+.cover .cover-h1 > span:first-of-type {
+    line-height: 7.2rem;
+}
+
+.cover .cover-h1 > span:nth-of-type(2) {
+    align-self: center;
+    margin-left: -1.5rem;
+}
+
+.cover .cover-h1 > span:last-of-type {
+    align-self: end;
+}
+
+.cover .cover-h1 .with-padding {
+    padding-left: 1.875rem;
+}
+
+.cover .cover-h1 .no-spacing {
+    letter-spacing: 0;
+}
+
+.cover-content {
+    justify-content: end;
+    align-items: center;
+}
+
+.cover-content :where(.txt,.button-main) {
+    font-size: 1.375rem;
+}
+
+.cover-content .txt {
+    word-spacing: 1.125rem;
+}
+
+.cover-content .button-main {
+    width: 257px;
+    height: 52px;
+    margin-left: 4.88rem;
+}
+
+/* lots section part */
+
+.lots-h2 {
+    padding: 11.25rem 2.5rem 1.7rem;
+}
+
+.lots-box {
+    list-style: none;
+    grid-gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(430px, 1fr));
+}
+
+.lots-box :where(.card-thumb, .card-content) {
+    grid-area: 1/2;
+}
+
+.lots-box .card {
+    position: relative;
+}
+
+.lots-box  .card-thumb img {
+    filter: brightness(0.5);
+}
+
+.lots-box  .card-content {
+    z-index: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3.13rem 2.5rem;
+}
+
+.lots-box  .card-content .card-title {
+    font-size: 1.375rem;
+    text-decoration-line: underline;
+}
+
+.lots-box  .card-content {
+    z-index: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3.13rem 2.5rem 3.5rem;
+    font-size: 1.25rem;
+}
+
+.lots-showmore {
+   margin: 1.7rem 2.5rem;
+    font-size: 1.25rem;
+}

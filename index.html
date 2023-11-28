@@ -1,10 +1,113 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
-  </head>
-  <body></body>
+    <link type="text/css" rel="stylesheet" href="./fonts/fonts.css">
+    <link type="text/css" rel="stylesheet" href="./styles/global.css">
+    <link type="text/css" rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <div class="header-box d-grid">
+            <nav class="header-nav">
+                <ul class="header-nav-list d-flex">
+                    <li class="item current-page">
+                        <a>главная</a>
+                    </li>
+                    <li class="item">
+                        <a href="#lots">посмотреть лоты</a>
+                    </li>
+                    <li class="item">
+                        <a href="#about">об аукционе</a>
+                    </li>
+                </ul>
+            </nav>
+            <a class="header-logo logo">
+                <img src="images/logo.svg" alt="Оно тебе надо">
+            </a>
+            <div class="header-address">
+                <a href="tel:+99995555555">+9 999 555 5555</a><br>
+                <a href="mailto:mail@example.com">mail@example.com</a>
+                <address>наб. Принсенграхт 263-265, <br> Амстердам</address>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section class="cover text-white">
+    <div class="container">
+        <h1 class="cover-h1 d-flex text-uppercase">
+            <span>он<span class="with-padding">о</span></span>
+            <span>теб<span class="with-padding">е</span></span>
+            <span>н<span class="with-padding">а</span>д<span class="no-spacing">о</span></span>
+        </h1>
+        <div class="cover-content d-flex">
+            <p class="txt text-uppercase">Аукцион вещей, в которые никто не верил</p>
+            <button class="button-main text-uppercase">сделать ставку</button>
+        </div>
+    </div>
+</section>
+
+<section id="lots" class="lots">
+    <div class="container">
+        <h2 class="lots-h2 h2-title text-uppercase">лоты</h2>
+        <ul class="lots-box d-grid text-white">
+            <li>
+                <a class="d-block">
+                    <article class="card d-grid">
+                        <div class="card-thumb">
+                            <img src="./images/card-lot-01.jpg" alt="Фильм режиссёра, который  бросил киношколу">
+                        </div>
+                        <div class="card-content d-flex">
+                            <h3 class="card-title text-uppercase">Фильм режиссёра, который бросил киношколу</h3>
+                            <p class="card-txt">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали,
+                                что режиссёр — Пол Томас Андерсон?</p>
+                        </div>
+                    </article>
+                </a>
+            </li>
+            <li>
+                <a class="d-block">
+                    <article class="card d-grid">
+                        <div class="card-thumb">
+                            <img src="./images/card-lot-02.jpg" alt="Фильм режиссёра, который  бросил киношколу">
+                        </div>
+                        <div class="card-content d-flex">
+                            <h3 class="card-title text-uppercase">Книга, где описан один скучный день из жизни рекламного
+                                агента</h3>
+                            <p>Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на
+                                древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории
+                                литературы, начиная с античных времён. И это всё накладывается на эпическую поэму
+                                Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?</p>
+                        </div>
+                    </article>
+                </a>
+            </li>
+            <li>
+                <a class="d-block">
+                    <article class="card d-grid">
+                        <div class="card-thumb">
+                            <img src="./images/card-lot-03.jpg" alt="Фильм режиссёра, который  бросил киношколу">
+                        </div>
+                        <div class="card-content d-flex">
+                            <h3 class="card-title text-uppercase">Картина, которую повторит даже 5-летний сын маминой подруги</h3>
+                            <p>Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на
+                                инфузорию-туфельку. Никаких полей, лесов, котиков… Сколько бы вы на такое поставили,
+                                если бы не знали, что это — одна из революционных работ Кандинского?</p>
+                        </div>
+                    </article>
+                </a>
+            </li>
+        </ul>
+        <div class="lots-showmore"><a href="#">посмотреть больше</a></div>
+    </div>
+</section>
+
+<section id="about" class="about"></section>
+
+</body>
 </html>
