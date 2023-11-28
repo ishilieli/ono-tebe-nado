@@ -99,23 +99,23 @@
     position: relative;
 }
 
-.lots-box  .card-thumb img {
+.lots-box .card-thumb img {
     filter: brightness(0.5);
 }
 
-.lots-box  .card-content {
+.lots-box .card-content {
     z-index: 1;
     flex-direction: column;
     justify-content: space-between;
     padding: 3.13rem 2.5rem;
 }
 
-.lots-box  .card-content .card-title {
+.lots-box .card-content .card-title {
     font-size: 1.375rem;
     text-decoration-line: underline;
 }
 
-.lots-box  .card-content {
+.lots-box .card-content {
     z-index: 1;
     flex-direction: column;
     justify-content: space-between;
@@ -124,6 +124,79 @@
 }
 
 .lots-showmore {
-   margin: 1.7rem 2.5rem;
+    margin: 1.7rem 2.5rem;
     font-size: 1.25rem;
+}
+
+/* about section part */
+
+.about {
+    margin-top: 9.5rem;
+}
+
+.about-box {
+    grid-template-columns: 430px 1fr;
+    grid-gap: 1.5rem;
+}
+
+.about-logo {
+    width: 15rem;
+    height: 15rem;
+    margin: 0 auto;
+    background: var(--black-color);
+    border-radius: 50%;
+}
+
+.about-logo .logo {
+    height: 100%;
+    place-content: center;
+}
+
+.about-logo img {
+    width: 9.25rem;
+    height: 7.125rem;
+    filter: invert(1);
+}
+
+.about-txt .about-h2 {
+    padding: 6.25rem 0;
+}
+
+.about-txt p {
+    font-size: 1.25rem;
+}
+
+.about-txt .with-margin {
+    margin-bottom: 1.625rem;
+}
+
+/* footer part */
+
+.footer {
+    margin-top: 11.5rem;
+    padding-bottom: 6rem;
+    font-size: 1.125rem;
+}
+
+.footer-box {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.footer-address {
+    line-height: 1.5rem;
+}
+
+.footer-nav-list {
+    flex-direction: column;
+    list-style: none;
+}
+
+.footer-social {
+    gap: 3rem;
+    justify-content: end;
+}
+
+.footer-social-link {
+    height: 3em;
+    width: 3rem;
 }

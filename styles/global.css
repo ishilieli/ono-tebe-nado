@@ -43,7 +43,7 @@ li:where(.current-page) {
     list-style: none;
 }
 
-li:is(.current-page) a, a:where(.logo), a:has(article) {
+li:is(.current-page) a, a:where(.logo), a:has(article), a:where(.footer-social-link) {
     border: none;
 }
 
